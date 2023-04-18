@@ -24,7 +24,7 @@ const Navbar = () => {
         {show?<button className="menu" onClick={()=>setShow(!show)}><img src="https://openclipart.org/image/800px/321014" alt="" /></button>:
         <div className="small">
             <button className="close" onClick={()=>setShow(!show)}><img src="https://th.bing.com/th/id/OIP.MvR8H4voNgN7Ej9WWRO8tgHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7" alt="" /></button>
-            <div className="username1">Buvaneswaran S</div>
+            <div className="username1">UserName</div>
             <div className="Links">
                 <Link to={"/"} className='Link'>Home</Link>
                 <Link to={"/about"} className='Link'>About</Link>

@@ -73,15 +73,34 @@
     }
     .small{
         display: flex;
-        border:1px solid rgb(85, 82, 82);
+        /* border:1px solid rgb(85, 82, 82); */
         margin: 20px;
         width:40%;
         height:70vh;
         flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px 2px grey;
     }
     .Links{
         display: flex;
+        margin-top: 20px;
+        gap:20px;
         flex-direction: column;
+    }
+    .Links .Link{
+        text-decoration: none;
+        font-weight: bold;
+        width:60%;
+        margin: auto;
+        border:1px solid blue;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .Links .Link:hover{
+        background-color: blue;
+        color:white;
     }
     .menu, .close{
         display: contents;
@@ -95,6 +114,18 @@
         width:35px;
         height:35px;
         padding:15px;
+    }
+    .close img{border-radius: 50%;}
+    .username1{
+        color:rgb(89, 136, 138);
+        width:80%;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 0px 5px;
+        box-shadow: 1px 1px 3px 1px crimson;
     }
     
 }
